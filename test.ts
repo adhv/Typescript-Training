@@ -10,7 +10,6 @@ for (let i = 0; i <words.length; i++){
         foundWord = true;
     }
 }
-
     
 let numbers =[-10, -1, 12];
 let numberAboveZero: boolean|number = false;
