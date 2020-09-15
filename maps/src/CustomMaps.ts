@@ -1,9 +1,10 @@
 //Instruction to every other class on how to they can be an argument to 'addMaker'
-interface Mappable {
+export interface Mappable {
   location: {
     lat: number;
     lng: number;
   };
+  // color: string;
 }
 export class CustomMap {
   private googleMap: google.maps.Map;
